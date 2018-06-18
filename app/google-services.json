@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475208476650",
+    "project_id": "trivago-media"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475208476650:android:d6be07aca38a16df",
+        "android_client_info": {
+          "package_name": "com.trivagomedia.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475208476650-ne4qc6euad84mondig85lgp6ltbo0cea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trivagomedia.app",
+            "certificate_hash": "10994B0A210041BD3EC192A69C2084B70AE93B43"
+          }
+        },
+        {
+          "client_id": "475208476650-jqoni1q10gmhejepdtabsa8n2h95ua7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiF5PcI1YX_GdQ7sj8GAOtm6ZpYBe4caI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

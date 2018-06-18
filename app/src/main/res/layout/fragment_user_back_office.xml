@@ -1,0 +1,184 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.trivagomedia.app.navigation.UserBackOfficeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="My Active Frontliner"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="1"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="My Media Points"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="168800"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="My Account Balance"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="$154.83"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="My Activity Status"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="100%"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="Money Available for payout"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="$150.83"
+            android:textColor="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_margin="@dimen/_12sdp"
+            android:layout_weight="1"
+            android:background="@android:color/white" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="Date"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="Amount"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:minHeight="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_12sdp"
+            android:text="Bonus Type"
+            android:textColor="@android:color/white" />
+    </TableRow>
+
+    <TableRow>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_weight="1" />
+
+    </TableRow>
+
+</TableLayout>

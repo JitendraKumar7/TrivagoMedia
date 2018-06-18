@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Trivago Media</string>
+
+    <string name="promptLogin">Get Started</string>
+    <string name="promptForgot">Forgot Password</string>
+    <string name="promptSignUp">Sign Up with App</string>
+    <string name="facebook_app_id">962442273893098</string>
+
+    <string name="actionGo">Go</string>
+    <string name="actionSend">Send</string>
+    <string name="actionLogin">Login</string>
+    <string name="actionRegister">Sign Up</string>
+    <string name="actionAddUser">Add Now</string>
+    <string name="actionProceed">Proceed to OTP</string>
+    <string name="actionForgotPassword">Forgot Password?</string>
+    <string name="actionSignup">"Don't have an account? Sign up"</string>
+
+    <string name="hintEmailId">Email Id</string>
+    <string name="hintPassword">Password</string>
+    <string name="hintMobile">Mobile Number</string>
+    <string name="hintConPassword">Confirm Password</string>
+    <string name="hintInviterId">Inviter Id</string>
+
+    <string name="hintFirstname">Frist Name</string>
+    <string name="hintLastname">Last Name</string>
+    <string name="hintUsername">Username</string>
+
+    <string name="navUserAccount">Your Account</string>
+    <string name="navUserBoard">Your Board</string>
+    <string name="navWriteMessage">Write Post</string>
+    <string name="navUserMessage">Your Message</string>
+    <string name="navNewMessage">New Message</string>
+    <string name="navUserFriends">Your Friends</string>
+    <string name="navUserBackOffice">Your Back Office</string>
+    <string name="navAddNewFriends">Add New Friends</string>
+    <string name="navLogout">Sign Out</string>
+
+
+    <string name="hinSearch">Search User</string>
+    <string name="hintWritePost">Write a Message</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
